@@ -24,7 +24,7 @@ To create your own test cases, please follow the steps below to get bitcode as i
   unsigned pardiff_make_message_length();
   // This interface indicates the length of the input networking data
 ```
-Here is an example how we do annotations on the FRR/babeld parser:
+Here is an example how we do annotations on the [FRR/babeld parser](https://github.com/FRRouting/frr/blob/master/babeld/message.c#L402):
 ```bash
 #include <stdint.h>
 #include <stdio.h>
