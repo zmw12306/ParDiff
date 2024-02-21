@@ -26,4 +26,4 @@ $  make -j8
 
 ```bash
 
-./bin/pardiff ../test/target1.bc ../test/target2.bc -pardiff-entry=pardiff_main_message > diff.txt 2>&1
+./bin/pardiff ../tests/target1.bc ../tests/target2.bc -pardiff-entry=pardiff_main_message > diff.txt 2>&1
