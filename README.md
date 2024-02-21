@@ -4,7 +4,7 @@ ParDiff is the implementation for our paper published in OOPSLA 2024:
  ParDiff: Practical Static Differential Analysis of Network Protocol Parsers
 It aims to find logical bugs in network protocol implementations using static differential analysis. 
 
-To use ParDiff, please prepare bitcode for two implementations under comparison:  target1.bc and target2.bc. Here we provide an example under pardiff/test.
+To use ParDiff, please prepare bitcode for two implementations under comparison:  target1.bc and target2.bc. Here we provide an example under pardiff/tests.
 
 ## Build
 
